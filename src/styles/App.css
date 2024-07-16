@@ -1,0 +1,116 @@
+/* src/styles/App.css */
+.header {
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+
+.header .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.header .nav-link {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.container p {
+  font-size: 1.2rem;
+}
+
+.fab {
+  font-family: "Font Awesome 6 Brands";
+}
+
+/* Di file CSS Anda */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Menggunakan minimum tinggi layar untuk mengisi layar penuh */
+  margin: 0;
+}
+
+.content {
+  flex: 1; /* Menempatkan konten di antara header dan footer */
+}
+
+footer {
+  background-color: #343a40; /* Sesuaikan dengan warna yang Anda inginkan */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed; /* Tetapkan posisi tetap */
+  bottom: 0;
+  width: 100%;
+}
+
+.welcome-header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #05cbee);
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff; /* Mengatur warna teks menjadi putih agar terlihat jelas */
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Memastikan overflow diatur agar tidak memengaruhi ukuran */
+}
+
+.section-title .title-text {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title .blue-line {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #007bff; /* Warna garis biru */
+  margin-top: 5px; /* Jarak dari teks */
+}
+
+/* src/styles/App.css */
+.contact-page {
+  background-color: #f0f0f0; /* Ganti dengan warna latar belakang yang diinginkan */
+  padding: 20px;
+}
+
+/* src/styles/App.css */
+.about-page {
+  background-color: #f0f0f0; /* Warna latar belakang */
+  padding: 20px; /* Padding untuk konten */
+}
+
+.about-header {
+  text-align: center; /* Posisi teks di tengah */
+  margin-bottom: 40px; /* Jarak bawah dari judul */
+}
+
+.about-header h2 {
+  font-size: 36px; /* Ukuran font judul */
+}
+
+.about-header .subtext {
+  font-size: 18px; /* Ukuran font subjudul */
+  color: #666; /* Warna teks subjudul */
+}
+
+.gradient-button {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  border: 2px solid #4facfe;
+  color: #ffffff; /* Warna teks */
+}
+
+.gradient-button:hover {
+  background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+  color: #ffffff; /* Warna teks saat hover */
+}
